@@ -1,0 +1,139 @@
+@charset "EUC-KR";
+
+
+body {
+  font:14px/1.8 Arial, Helvetica, sans-serif;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.frame {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+}
+
+
+
+.container {
+  width: 600px;
+  margin: 0px auto 100px;
+}
+
+.myinfo_wrap {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+table{
+	width: 100%;
+	border-collapse: separate;
+    border-spacing: 0;
+	font-size: 20px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+}
+
+.table_list{
+	position: relative;
+    width: 100%;
+}
+
+tbody {
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td{
+	font-size: 20px;
+	display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+}
+
+.table_list tbody tr:first-child th, 
+.table_list tbody tr:first-child td {
+	border-top: 1.5px solid #548BBA;
+}
+
+.table_list tbody tr td,
+.table_list tbody tr th {
+	position: relative;	
+	border-left: 1px solid #F3F3F3;
+	border-bottom: 1px solid #F3F3F3;
+	padding: 12px 25px;
+    font-size: 15px;
+}
+
+.table_list tbody tr th {
+	background: #D4EDEE; 
+}
+
+.btn_wrap {
+	margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn_wrap button{
+	margin: 0 5px;
+}
+
+button{
+	background: transparent;
+    cursor: pointer;
+    
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    align-items: flex-start;
+    box-sizing: border-box;
+    left:0%;
+}
+
+button.red{
+	border: 1px solid #9F9FA0;
+    background-color: #9F9FA0;
+    color: #fff;
+}
+
+.btn_design {
+	min-width: 30px;
+    padding: 5px 5px 5px;
+    font-size: 14px;
+    min-height: 15px;
+    line-height: 15px;  
+}
+
+.container {
+  display: table;
+}
+.nav{
+  display: table-cell;
+}
